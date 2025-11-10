@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ia-estudio-ingenieria/static/css/main.3b7cb180.css",
+    "main.js": "/ia-estudio-ingenieria/static/js/main.49feda86.js",
+    "index.html": "/ia-estudio-ingenieria/index.html",
+    "main.3b7cb180.css.map": "/ia-estudio-ingenieria/static/css/main.3b7cb180.css.map",
+    "main.49feda86.js.map": "/ia-estudio-ingenieria/static/js/main.49feda86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b7cb180.css",
+    "static/js/main.49feda86.js"
+  ]
+}
