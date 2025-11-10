@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ia-estudio-ingenieria/static/css/main.3b7cb180.css",
-    "main.js": "/ia-estudio-ingenieria/static/js/main.49feda86.js",
+    "main.css": "/ia-estudio-ingenieria/static/css/main.90655a1d.css",
+    "main.js": "/ia-estudio-ingenieria/static/js/main.8224a25b.js",
     "index.html": "/ia-estudio-ingenieria/index.html",
-    "main.3b7cb180.css.map": "/ia-estudio-ingenieria/static/css/main.3b7cb180.css.map",
-    "main.49feda86.js.map": "/ia-estudio-ingenieria/static/js/main.49feda86.js.map"
+    "main.90655a1d.css.map": "/ia-estudio-ingenieria/static/css/main.90655a1d.css.map",
+    "main.8224a25b.js.map": "/ia-estudio-ingenieria/static/js/main.8224a25b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b7cb180.css",
-    "static/js/main.49feda86.js"
+    "static/css/main.90655a1d.css",
+    "static/js/main.8224a25b.js"
   ]
 }
