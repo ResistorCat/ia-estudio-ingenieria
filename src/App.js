@@ -116,6 +116,32 @@ function App() {
             ingeniería en Chile. Análisis de 221 conversaciones reales en
             contextos profesionales, académicos y cotidianos.
           </p>
+          
+          {/* Preview del Estudio */}
+          <div className="study-preview">
+            <div className="study-preview-card">
+              <div className="study-preview-icon">
+                <span className="material-symbols-outlined">description</span>
+              </div>
+              <div className="study-preview-content">
+                <h3>Estudio Completo</h3>
+                <p>16 páginas • Informe visual detallado</p>
+                <p className="study-preview-subtitle">
+                  221 conversaciones analizadas sobre uso de IA en ingeniería
+                </p>
+              </div>
+              <a
+                href="/estudio-ia-ingenieria.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="study-preview-button"
+              >
+                <span className="material-symbols-outlined">picture_as_pdf</span>
+                Ver PDF
+              </a>
+            </div>
+          </div>
+
           <div className="hero-buttons">
             <button
               className="hero-cta"
@@ -124,15 +150,6 @@ function App() {
               Ver los Hallazgos
               <span className="material-symbols-outlined">arrow_downward</span>
             </button>
-            <a
-              href="https://www.canva.com/design/DAG3qjil8MA/5sIAAQfnYtoOy7i41CECpw/edit"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hero-cta hero-cta-secondary"
-            >
-              Ver Estudio Completo
-              <span className="material-symbols-outlined">open_in_new</span>
-            </a>
           </div>
         </div>
       </section>
@@ -661,12 +678,12 @@ function App() {
           </li>
           <li>
             <a
-              href="https://www.canva.com/design/DAG3qjil8MA/5sIAAQfnYtoOy7i41CECpw/edit"
+              href="/estudio-ia-ingenieria.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
             >
-              Estudio Completo
+              Estudio Completo (PDF)
             </a>
           </li>
           <li>

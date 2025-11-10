@@ -120,8 +120,123 @@
 .hero-subtitle {
   font-size: 1.25rem;
   color: var(--text-light);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   line-height: 1.6;
+}
+
+/* Study Preview Card */
+.study-preview {
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.study-preview-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.study-preview-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(19, 91, 236, 0.5);
+  box-shadow: 0 20px 40px rgba(19, 91, 236, 0.2);
+}
+
+.study-preview-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary) 0%, #0c4da2 100%);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(19, 91, 236, 0.3);
+}
+
+.study-preview-icon .material-symbols-outlined {
+  font-size: 2rem;
+  color: white;
+}
+
+.study-preview-content {
+  flex: 1;
+  text-align: left;
+}
+
+.study-preview-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: white;
+}
+
+.study-preview-content p {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin: 0.25rem 0;
+}
+
+.study-preview-subtitle {
+  font-size: 0.8rem !important;
+  color: rgba(148, 163, 184, 0.8) !important;
+  margin-top: 0.5rem !important;
+}
+
+.study-preview-button {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.study-preview-button:hover {
+  background: var(--primary-hover);
+  transform: scale(1.05);
+}
+
+.study-preview-button .material-symbols-outlined {
+  font-size: 1.25rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .study-preview-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .study-preview-content {
+    text-align: center;
+  }
 }
 
 .hero-buttons {
@@ -151,17 +266,6 @@
   background: var(--primary-hover);
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(19, 91, 236, 0.3);
-}
-
-.hero-cta-secondary {
-  background: rgba(19, 91, 236, 0.1);
-  color: var(--primary);
-  border: 2px solid var(--primary);
-}
-
-.hero-cta-secondary:hover {
-  background: rgba(19, 91, 236, 0.2);
-  box-shadow: 0 10px 30px rgba(19, 91, 236, 0.2);
 }
 
 /* Section Container */
