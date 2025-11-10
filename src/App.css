@@ -124,6 +124,13 @@
   line-height: 1.6;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .hero-cta {
   display: inline-flex;
   align-items: center;
@@ -144,6 +151,17 @@
   background: var(--primary-hover);
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(19, 91, 236, 0.3);
+}
+
+.hero-cta-secondary {
+  background: rgba(19, 91, 236, 0.1);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.hero-cta-secondary:hover {
+  background: rgba(19, 91, 236, 0.2);
+  box-shadow: 0 10px 30px rgba(19, 91, 236, 0.2);
 }
 
 /* Section Container */

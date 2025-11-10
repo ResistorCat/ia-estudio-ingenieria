@@ -116,13 +116,24 @@ function App() {
             ingeniería en Chile. Análisis de 221 conversaciones reales en
             contextos profesionales, académicos y cotidianos.
           </p>
-          <button
-            className="hero-cta"
-            onClick={() => scrollToSection("resultados")}
-          >
-            Ver los Hallazgos
-            <span className="material-symbols-outlined">arrow_downward</span>
-          </button>
+          <div className="hero-buttons">
+            <button
+              className="hero-cta"
+              onClick={() => scrollToSection("resultados")}
+            >
+              Ver los Hallazgos
+              <span className="material-symbols-outlined">arrow_downward</span>
+            </button>
+            <a
+              href="https://www.canva.com/design/DAG3qjil8MA/5sIAAQfnYtoOy7i41CECpw/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-cta hero-cta-secondary"
+            >
+              Ver Estudio Completo
+              <span className="material-symbols-outlined">open_in_new</span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -646,6 +657,16 @@ function App() {
           <li>
             <a href="#desafios" className="footer-link">
               Ámbitos
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.canva.com/design/DAG3qjil8MA/5sIAAQfnYtoOy7i41CECpw/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link"
+            >
+              Estudio Completo
             </a>
           </li>
           <li>
